@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "dev": "deno run --watch main.ts"
+  },
+  "imports": {
+    "@circle-fin/user-controlled-wallets": "npm:@circle-fin/user-controlled-wallets@^4.6.0",
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
